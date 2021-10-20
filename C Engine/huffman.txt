@@ -1,0 +1,103 @@
+Board Size
+ 9x11
+11x13
+
+OUT_BOUNDS            1000_0000
+
+TEAM                  0110_0000
+
+WHITE                 0100_0000
+BLACK                 0010_0000
+
+PIECE_TYPE            0001_1111
+
+ELEPHANT              0001_0000
+KNIGHT                0000_1000
+DRUID                 0000_0100
+ARCHER                0000_0010
+PAWN                  0000_0001
+
+WHITE_ELEPHANT        0101_0000
+WHITE_KNIGHT          0100_1000
+WHITE_DRUID           0100_0100
+WHITE_ARCHER          0100_0010
+WHITE_PAWN            0100_0001
+
+BLACK_ELEPHANT        0011_0000
+BLACK_KNIGHT          0010_1000
+BLACK_DRUID           0010_0100
+BLACK_ARCHER          0010_0010
+BLACK_PAWN            0010_0001
+
+EMPTY                 0000_0000
+
+
+
+BP BP BD BP -- BP BD BP BP
+BA -- -- BE BK BE -- -- BA
+-- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- --
+-- -- -- -- -- -- -- -- --
+WA -- -- WE WK WE -- -- WA
+WP WP WD WP -- WP WD WP WP
+
+
+
+PEÇA                    BINÁRIO  PROPORÇÃO  HUFFMAN  PESO CHAR
+
+EMPTY                 0000_0000         73        0    73    n
+WHITE_PAWN            0100_0001          6      100    18    P
+WHITE_ARCHER          0100_0010          2    10100    10    A
+WHITE_DRUID           0100_0100          2    10101    10    D
+WHITE_ELEPHANT        0101_0000          2    10110    10    E
+WHITE_KNIGHT          0100_1000          1    10111     5    K
+BLACK_PAWN            0010_0001          6      110    18    p
+BLACK_ARCHER          0010_0010          2    11100    10    a
+BLACK_DRUID           0010_0100          2    11101    10    d
+BLACK_ELEPHANT        0011_0000          2    11110    10    e
+BLACK_KNIGHT          0010_1000          1    11111     5    k
+
+Total                                                 179
+
+
+
+0
+  110   110 11101   110     0   110 11101   110   110
+11100     0     0 11110 11111 11110     0     0 11100
+    0     0     0     0     0     0     0     0     0
+    0     0     0     0     0     0     0     0     0
+    0     0     0     0     0     0     0     0     0
+    0     0     0     0     0     0     0     0     0
+    0     0     0     0     0     0     0     0     0
+    0     0     0     0     0     0     0     0     0
+    0     0     0     0     0     0     0     0     0
+11100     0     0 10110 10111 10110     0     0 11100
+  100   100 11101   100     0   100 11101   100   100
+
+
+
+
+0000 0
+0001 1
+0010 2
+0011 3
+0100 4
+0101 5
+0110 6
+0111 7
+1000 8
+1001 9
+1010 a
+1011 b
+1100 c
+1101 d
+1110 e
+1111 f
+
+
+6ddcdddb87bfe38000000000000000385af6392762764
+2pdpnpd2pa2neke2na63nA2nEKE2nA2PDPnPD2P
