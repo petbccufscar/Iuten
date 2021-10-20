@@ -1,14 +1,29 @@
 # Iuten
 
-Peças: Peões, arqueiros, elefante selvagens, cavaleiro, druida.
-Ter uma casa que seria a torre, onde terá promoções, como o arqueiro em cima dela, que pode acertar qualquer alvo. Ter duas próximas ao centro.
-	
-Arqueiro: Controla a linha completa estando na torre, ele é removido por outro arqueiro, fora da torre ele anda até duas casas na diagonal. Duas peças.
-	
-Elefante selvagens: Ocupa duas casas e só se move com o peão em cima e o druida controla a partir. Caso a peça em cima do elefante seja acertada, ela é capturada. Ele move a cabeça nas casas em cima, baixo, esquerda e direita, em relação a traseira dele conseguindo virar para. Caso ele vire apenas 90° ele podera andar uma casa, caso vire 180° apenas o movimento de virar, e caso queira apenas andar é possivel por duas casas. O elefante não morre.
+## Estruturas
 
-Peões: Todas as direções uma casa. Oito peças.
-	
-Cavaleiro: Anda na horizontal e vertical, quando atinge outra peça com uma certa distância de casas, ganhe mais um movimento para qualquer casa ao redor. Uma peça
-	
-Druida: consegue tomar o elefante selvagem, mata a peça que estiver controlando, anda duas casas para a horizontal e vertical. Duas peças.
+### Torre
+
+Quando o arqueiro está em cima da torre ele controla todas as diagonais. A torre bloqueia a visão de todas as peças fora dela. Outras peças podem entrar na torre para capturar o arqueiro.
+
+## Peças
+
+### Elefante
+
+Se move apenas para frente, uma casa. Quando um elefante do oponente é capturado ele pode ser revivido em uma casa adjacente à um druida. Duas peças por jogador.
+
+### Peões
+
+Se move em todas as direções, uma casa. Seis peças por jogador.
+
+### Arqueiro
+
+Controla a linha completa estando na torre. Fora da torre ele anda até duas casas nas diagonais e uma casa na horizontal. Duas peças por jogador.
+
+### Druida
+
+Consegue reviver os elefantes do oponente. Anda duas casas para na horizontal e vertical. Duas peças por jogador.
+
+### Cavaleiro
+
+Anda na horizontal e vertical, quantas casas quiser. Quando captura outra peça tendo andado cinco ou mais casa, ganha um movimento adicional para qualquer direção, uma casa. Uma peça por jogador.
